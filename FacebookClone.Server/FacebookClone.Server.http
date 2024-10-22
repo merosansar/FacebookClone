@@ -1,0 +1,6 @@
+@FacebookClone.Server_HostAddress = http://localhost:5110
+
+GET {{FacebookClone.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
