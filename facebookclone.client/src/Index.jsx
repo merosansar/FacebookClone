@@ -26,7 +26,7 @@ function Index() {
                 </p>
 
             </div>
-            <div className="right flex flex-col bg-white p-6 rounded-lg w-1/3 text-lg relative shadow border border-2 ">
+            <div className="right flex flex-col bg-white p-6 rounded-lg w-1/3 text-lg relative  border border-2 ">
                 <input className="px-4 py-2 mb-2 h-12 border border-1 border-gray-200 rounded-lg outline-blue-600 "
                     type="text"
                     placeholder="Email or phone number"
@@ -44,7 +44,7 @@ function Index() {
                     Forgot password?
                 </span>
                 <hr className="my-3"></hr>
-                <button className="bg-green-600 hover:bg-green-700 px-4 w-fit  mx-auto   py-3 rounded-lg text-white font-bold cursor-pointer" >
+                <button className="bg-green-600 sm:text-sm md:text-base lg:text-lg hover:bg-green-700 px-4 w-fit  mx-auto   py-3 rounded-lg text-white font-bold cursor-pointer" >
                     Create new account
                 </button>
                 <span className="absolute -bottom-12 text-sm"> <span className="font-semibold hover:underline  "> Create a Page </span> for a celebrity, brand or business. </span>
